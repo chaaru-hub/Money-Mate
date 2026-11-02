@@ -1,0 +1,7 @@
+{
+  "appId": "com.moneymate.app",
+  "appName": "Money Mate",
+  "webDir": "www",
+  "backgroundColor": "#f3f5fa",
+  "server": { "androidScheme": "https" }
+}

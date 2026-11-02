@@ -1,0 +1,22 @@
+{
+  "name": "money-mate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Money Mate: track who owes you, bank balances, expenses and investments.",
+  "scripts": {
+    "icons": "capacitor-assets generate --android --iconBackgroundColor '#3a4cf0' --iconBackgroundColorDark '#3a4cf0' --splashBackgroundColor '#f3f5fa' --splashBackgroundColorDark '#0a0f22'",
+    "sync": "cap sync android",
+    "apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/filesystem": "^6.0.2",
+    "@capacitor/share": "^6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}
