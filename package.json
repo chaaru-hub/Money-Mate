@@ -4,7 +4,7 @@
   "private": true,
   "description": "Money Mate: track who owes you, bank balances, expenses and investments.",
   "scripts": {
-    "icons": "capacitor-assets generate --android --iconBackgroundColor '#3a4cf0' --iconBackgroundColorDark '#3a4cf0' --splashBackgroundColor '#f3f5fa' --splashBackgroundColorDark '#0a0f22'",
+    "icons": "capacitor-assets generate --android --iconBackgroundColor '#3a4cf0' --iconBackgroundColorDark '#3a4cf0' --splashBackgroundColor '#f3f0ff' --splashBackgroundColorDark '#14112b'",
     "sync": "cap sync android",
     "apk": "cd android && ./gradlew assembleDebug"
   },
